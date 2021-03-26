@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  min-height: 100vh;
+}
+body {
+  /* for debugging, use background color lets us see the content */
+  /* background-color: rgb(130, 216, 238); */
+  min-height: 100vh;
+  /* background-image: url("images/slide_one.jpg"); */
+  /* background-size: cover;
+  object-fit: contain; */
+}
+
+.main {
+  /* for debugging, a blue background lets us see the content */
+  /*background-color: blue;*/
+  min-height: calc(100vh - 11rem);
+  margin-left: 8.125rem;
+  margin-right: 8.125rem; /* this leaves space for the sticky footer */
+}
+
+.header {
+  padding-top: 1.179rem;
+}
+
+.logo {
+  margin: 0;
+}
+
+.contact-btn {
+  margin-left: 14rem;
+  background: transparent;
+  color: #ffffff;
+  width: 8.688rem;
+  height: 2.625rem;
+  border-width: 0.01rem;
+  border-color: #ffffff;
+  border: solid 1px;
+}
+
+.menu {
+  list-style-type: none;
+  margin-top: 0.8rem;
+  margin-left: 0.1rem;
+  padding-left: 0.2rem;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+}
+
+.menu li a {
+  color: #ffffff;
+}
+
+.menu li a:hover,
+li a:active {
+  color: #ffc004;
+}
+
+.headline {
+  font-family: HelveticaNeue;
+  font-size: 5.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
+  color: #ffffff;
+  margin-top: 8.5rem;
+}
+
+.subhead {
+  font-family: HelveticaNeue;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  margin-top: 0.5rem;
+  width: 22.5rem;
+  height: 14.188rem;
+  color: #ffffff;
+  margin-top: 10.125rem;
+}
+
+.footer {
+  background-color: #ffffff;
+  min-height: 11rem;
+  margin-left: 8.125rem;
+  margin-right: 8.125rem;
+}
+
+.cta-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.63px;
+  color: #000000;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.lets-talk {
+  font-family: HelveticaNeue;
+  font-size: 0.688rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: 1px;
+  color: #000000;
+  margin-top: 4rem;
+}
